@@ -1,0 +1,98 @@
+@media (max-width: 500px) {
+  #navbar .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #navbar .logo {
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 24px;
+  }
+
+  #navbar ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  #navbar ul li {
+    width: 100%;
+  }
+
+  #navbar ul li a {
+    display: block;
+    padding: 12px 0;
+    text-align: center;
+    border-bottom: 1px dotted #444;
+  }
+}
+
+  #showcase {
+    height: auto;
+    padding: 60px 20px;
+  }
+  #showcase .showcase-content {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  #showcase h1 {
+    font-size: 32px;
+    line-height: 1.3em;
+  }
+
+  #info {
+    height: auto;
+    padding: 30px 20px;
+  }
+  #info .info-img {
+    display: none;
+  }
+  #info .info-content {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  #features .box {
+    float: none;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  #about-info .info-left,
+  #about-info .info-right {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  #about-info .info-right {
+    margin-top: 20px;
+  }
+
+  #about-info .info-left h1,
+  #contact-form h1,
+  #contact-form p {
+    text-align: center;
+  }
+
+  #contact-info .box {
+    float: none;
+    width: 100%;
+    text-align: center;
+    border-bottom: #444 dotted 1px;
+    margin-bottom: 15px;
+  }
+
+  #testimonials .testimonial {
+    flex-direction: column;
+    text-align: center;
+  }
+  #testimonials .testimonial img {
+    margin: 0 auto 10px auto;
+  }
+
